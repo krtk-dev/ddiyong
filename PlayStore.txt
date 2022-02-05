@@ -1,0 +1,11 @@
+당신은 몇번 튕겨 클리어 하실 수있으신가요?
+
+ca-app-pub-1799117611799052~9523343449
+ca-app-pub-1799117611799052/3121586622
+
+Oauth 클라이언트
+817495272879-3kimd1dmpjrc112ie66u5esk6049h16e.apps.googleusercontent.com
+
+콘솔 연결된앱 클라이 언트 id
+817495272879-3kimd1dmpjrc112ie66u5esk6049h16e.apps.googleusercontent.com
+

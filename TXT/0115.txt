@@ -1,0 +1,71 @@
+ <string>
+밀려나는 string
+
+ <Scene변수>
+1. 기본String
+2. 주어지는 string
+3. 튕김 제한
+4. 별위치
+5. 시작점
+6. 끝점
+7. borderString (yellow or red)
+
+ <idea>
+모을수록 압축되게 다모으면 터지는
+Stringchangerbar = 태두리만 주황
+nail 두개 모으면 쓰래기통
+Main 아래에 개발자 설명
+설정에 자동보정 OnOff + 각도 설정
+bar랑 Nail이랑 겹치면 bar투명도 주기
+두점 거리 길어지면 자동 보정 안되게?
+nail1 -> nail2로 raycast해서 선위에 object있나 확인하기 (MoveBar사용후에도 채크하기)
+바탕 (바나나?)우유색
+
+ <생각해봐야할 점>
+클릭된 String어떻게 강조하지?
+카메라 16:9로 어케 고정하지?
+더블클릭막기
+string맵밖으로 나가도되나?(안될듯) 밖으로 나가면 투명하게하고 background클릭시 삭제
+string에 nail1, nail2 저장해놓기?
+stringSellet 왼쪽부타 차자자작
+
+01/11
+//normalbar / stringbar 배치 연출
+
+01/12
+//Stringbar <-> movebar 배치연출
+
+01/13
+//1. string배치되게
+//2. 45각도 보정 +-3도정도?
+//UI raycast 관통안되게
+//Dots.setparent(dots);
+//3. raycast event로 바꾸기
+//4. reset버튼 활성화
+//5. string collider길이 맞추기
+//6. Stringbar ------ 형식으로 바꾸기 (생각해보기)
+
+01/14
+//0. string위에서 down해도 그려지기 (stringEventtriger활성화)
+//1. Stringbar 생성 모션 짧았다 길어지게 nail1 -> nail2방향으로
+//2. stringClick 반응하기 -> barmode3 (click시 naildelete)
+!!3. string태두리로 강조
+//4. movebar icon 40*40으로 고정하기
+//5. move바 활성화 (7개 전부)
+
+01/15 
+//1. stringcollider sizeup (콜라이더 2개로 layer설정)
+//(보류)2. barmode에 따라서 border색 바꾸기
+//3. 회전버튼 위치바꾸기
+//4. 힌트랑 리셋버튼 위치 바꾸기
+//5. string이 맵밖에 나가면 alpha down delete
+//6. string태두리로 강조
+7. palette 왼쪽부터
+
+01/16 star / start,endPoint
+0. stringDelete list랑 연동하기
+0.1. list item개수 하나당 하나만?
+1. player설정 rigidbody
+2. startButton활성화
+3. doubleClick중지
+4. 

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Background
+  - Star
+  - String
+  - Basic
+  - PtBasic
+  - StartArea
+  - Tail
+  - AimDot
+  - Hole
+  - StartPos
+  - Direction
+  - StageManager
+  - Palette
+  - Barrier
+  - StringParent
+  - Harf
+  - Once
+  - PtHarf
+  - PtOnce
+  - ScoreNotice
+  - BasicBarrier
+  - MoreStar
+  - HarfBarrier
+  - OnceBarrier
+  - Tutorial
+  - TutoHand
+  - Popup
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Map
+  - Wall
+  - StartOptionWall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 328035411
+    locked: 0
+  - name: Menu
+    uniqueID: 1131093179
+    locked: 0
+  - name: String
+    uniqueID: 621283059
+    locked: 0
+  - name: Player
+    uniqueID: 4192526149
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

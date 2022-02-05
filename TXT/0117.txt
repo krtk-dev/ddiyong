@@ -1,0 +1,114 @@
+ <string>
+0. 닿으면 사망(Map)
+1. basic reflect
+2. 온방향 그대로 튕김 -velocity (화살표가 공focus)
+3. 한면은 basic 한면은 pass
+4. 1회용
+5. 밀려남
+
+<장애물>
+0. 닿으면 열림
+
+<버튼>
+reset버튼 / string
+stop버튼 / string(1회용같은거 복구, 시작할때 저장하기), player(위치, velocity=0), 별, 끝점
+	   isPlaying = false;
+
+ <Scene변수>
+1. 기본 Wall
+2. 주어지는 string (종류재한 있음)
+3. 튕김 제한
+4. 별위치 & 개수
+5. 시작점
+6. 끝점
+7. borderString (yellow or red)
+
+<Update>
+1.ResetButton(), StringObject2StringNumber(GameObject obj) case추가
+
+ <idea>
+모을수록 압축되게 다모으면 터지는
+Main 아래에 개발자 설명
+설정에 자동보정 OnOff + 각도 설정
+//bar랑 Nail이랑 겹치면 bar투명도 주기
+두점 거리 길어지면 자동 보정 안되게?
+nail1 -> nail2로 raycast해서 선위에 object있나 확인하기 (MoveBar사용후에도 채크하기)
+바탕 (바나나?)우유색
+끝점과 별을 다르게 놓을 필요 있나? (끝점은 장애물이기도함)
+startpos에 씬특성 설명(5튕김, 별3개)
+string다쓰고 드래그 하면 진동울리기
+대칭 필요한 string은 bar위에 왼쪽에서 필요한 기능나오기?
+palette Onmousedown일때 아래서 올라오기?
+String다쓰면 nomoreString toast메시지 띄우기?
+Data저장 spreadSheet만들기
+튕길때마다 먹을때마다 표시(별 1/5)
+
+ <생각해봐야할 점>
+//클릭된 String어떻게 강조하지?
+카메라 16:9로 어케 고정하지?
+//더블클릭막기
+//string맵밖으로 나가도되나?(안될듯) 밖으로 나가면 투명하게하고 background클릭시 삭제
+!!string에 nail1, nail2 저장해놓기?
+//stringSellet 왼쪽부타 차자자작
+
+01/11
+//normalbar / stringbar 배치 연출
+
+01/12
+//Stringbar <-> movebar 배치연출
+
+01/13
+//1. string배치되게
+//2. 45각도 보정 +-3도정도?
+//UI raycast 관통안되게
+//Dots.setparent(dots);
+//3. raycast event로 바꾸기
+//4. reset버튼 활성화
+//5. string collider길이 맞추기
+//6. Stringbar ------ 형식으로 바꾸기 (생각해보기)
+
+01/14
+//0. string위에서 down해도 그려지기 (stringEventtriger활성화)
+//1. Stringbar 생성 모션 짧았다 길어지게 nail1 -> nail2방향으로
+//2. stringClick 반응하기 -> barmode3 (click시 naildelete)
+!!3. string태두리로 강조
+//4. movebar icon 40*40으로 고정하기
+//5. move바 활성화 (7개 전부)
+
+01/15 
+//1. stringcollider sizeup (콜라이더 2개로 layer설정)
+//(보류)2. barmode에 따라서 border색 바꾸기
+//3. 회전버튼 위치바꾸기
+//4. 힌트랑 리셋버튼 위치 바꾸기
+//5. string이 맵밖에 나가면 alpha down delete
+//6. string태두리로 강조
+!!7. palette 왼쪽부터
+
+01/16 star / start,endPoint
+//-1. highlight first touch
+//0. stringDelete list랑 연동하기 (정렬 개수순?)<<<<<<<<<<<<<<생각해보기(ㄴㄴ번호순)
+!!0.01. palette 왼쪽부터 (↑↓stop)<anim
+//0.02. string다쓰면 Mode1
+//0.1. list item개수 하나당 하나만?
+!!1. player설정 rigidbody
+!!2. startButton활성화
+!!3. doubleClick중지
+//4. resetButton > list.add
+
+01/17
+//highLightAnim수정
+//Gameobject계속 생성되는거 수정하기
+//palette 짧게 클릭하면 anim없이 바로 넘어가고 길게 클릭 (걍 해도 될듯)
+//string직각으로 한번 해보기 (아닌듯)
+//paletteText누르면 바로 바뀌기
+//palette 왼쪽부터 하나씩 이뮬레이터로 true켜서 파도타기 효과주기
+//멀티터치 막기(if(myMode == 2))
+//그림자
+//player설정 rigidbody
+//playing중에 드래그하면 toast메시지띄우기
+//startButton활성화
+//doubleClick중지
+!!ball뒤에 점따라오기
+
+01/18
+ball뒤에 점따라오기

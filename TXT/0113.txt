@@ -1,0 +1,49 @@
+ <string>
+밀려나는 string
+
+ <Scene변수>
+1. 기본String
+2. 주어지는 string
+3. 튕김 제한
+4. 별위치
+5. 시작점
+6. 끝점
+7. borderString (yellow or red)
+
+ <idea>
+모을수록 압축되게 다모으면 터지는
+Stringchangerbar = 태두리만 주황
+nail 두개 모으면 쓰래기통
+Main 아래에 개발자 설명
+설정에 자동보정 OnOff + 각도 설정
+bar랑 Nail이랑 겹치면 bar투명도 주기
+두점 거리 길어지면 자동 보정 안되게?
+
+ <생각해봐야할 점>
+클릭된 String어떻게 강조하지?
+카메라 16:9로 어케 고정하지?
+
+01/11
+//normalbar / stringbar 배치 연출
+
+01/12
+//Stringbar <-> movebar 배치연출
+
+01/13
+//1. string배치되게
+//2. 45각도 보정 +-3도정도?
+//UI raycast 관통안되게
+//Dots.setparent(dots);
+//3. raycast event로 바꾸기
+//4. reset버튼 활성화
+//5. string collider길이 맞추기
+//6. Stringbar ------ 형식으로 바꾸기 (생각해보기)
+
+01/14
+1. Stringbar 생성 모션 짧았다 길어지게 nail1 -> nail2방향으로
+2. stringClick 반응하기 -> barmode3 (click시 naildelete)
+3. movebar icon 40*40으로 고정하기
+4. move바 활성화 (7개 전부)
+
+01/15 PlayerMove Focus
+
