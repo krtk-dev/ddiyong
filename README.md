@@ -17,11 +17,12 @@ A `mobile game` where you draw a wall so that the bouncing ball can collect all 
 
 
 ### Maps
-4 Stages / 80 Maps
-   1. Basic
-   2. Harf Mirror (one side is baisc, the other side is through)
-   3. Disposable
-   4. Through border
+> 4 Stages / 80 Maps
+1. Basic
+2. Harf Mirror (one side is baisc, the other side is through)
+3. Disposable
+4. Through border
+
 ![1](https://github.com/user-attachments/assets/89536752-0d14-4415-993e-e800f90ef026)
 ![2](https://github.com/user-attachments/assets/c916bd30-26f0-4e80-ad70-10b550f4b9ac)
 ![3](https://github.com/user-attachments/assets/0706e7d4-f1c6-46b1-bd23-4cd6cc5c08ec)
