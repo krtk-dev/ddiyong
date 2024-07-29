@@ -7,9 +7,13 @@
 
 A `mobile game` where you draw a wall so that the bouncing ball can collect all the stars.
 
-[Youtube preview here!](https://youtu.be/xKki2Jq1lqc)
-
 ![image (1)](https://github.com/krtk-dev/ddiyong/assets/48207131/74308590-ba9d-4e41-9c0b-4a59e247de56)
+
+### Links
+
+- [Youtube preview](https://youtu.be/xKki2Jq1lqc)
+- [Playstore](https://play.google.com/store/apps/details?id=com.Korean.Thinker)
+
 
 ### Preview
 
